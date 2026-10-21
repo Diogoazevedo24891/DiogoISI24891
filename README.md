@@ -18,25 +18,26 @@ O projeto inclui a leitura de ficheiros Excel, JSON e XML, o tratamento e valida
 
 ## Organização do projeto
 
-- `workflow/` — Job principal e transformações do Pentaho (`.kjb` e `.ktr`).
-- `data/` — Catálogo JSON e ficheiro XML com os parâmetros.
-- `database/` — Scripts SQL utilizados no projeto.
+- `pentaho/` — Job principal e transformações do Pentaho (`.kjb` e `.ktr`).
+- `config/` — Catálogo JSON e ficheiro XML com os parâmetros.
+- `sql/` — Scripts SQL utilizados no projeto.
 - `csv/` — Ficheiros CSV com os resultados tratados e agregados.
 - `dashboard/` — Dashboard desenvolvido em Excel.
-- `report/` — Relatório académico em PDF.
+- `relatorio/` — Relatório académico em PDF.
+- `evidencias/` — Capturas de ecrã que demonstram o funcionamento do projeto.
 - `video/` — Informação e ligação ao vídeo de demonstração.
 
 ## Configuração da ligação MySQL
 
-Por motivos de segurança, a palavra-passe da base de dados não está incluída neste repositório.
+Por motivos de segurança, a palavra-passe da base de dados não está incluída nos ficheiros atuais deste repositório.
 
-Para executar o projeto, é necessário configurar a variável `MYSQL_PASSWORD` no ficheiro local `kettle.properties` do Pentaho, fora do repositório Git.
+Para executar as versões publicadas das transformações, é necessário configurar a variável `MYSQL_PASSWORD` no ficheiro local `kettle.properties` do Pentaho, fora do repositório Git.
 
 Os ficheiros originais utilizados na execução foram mantidos no computador de desenvolvimento.
 
 ## Relatório
 
-O relatório académico encontra-se na pasta `report/` e apresenta o desenvolvimento do projeto, as transformações realizadas, os testes e os resultados obtidos.
+O relatório académico encontra-se na pasta `relatorio/` e apresenta o desenvolvimento do projeto, as transformações realizadas, os testes e os resultados obtidos.
 
 ## Vídeo de demonstração
 
