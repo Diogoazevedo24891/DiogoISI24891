@@ -1,0 +1,22 @@
+CREATE TABLE `etl_job_log` (
+  `ID_JOB` int DEFAULT NULL,
+  `CHANNEL_ID` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `JOBNAME` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `STATUS` varchar(15) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `LINES_READ` bigint DEFAULT NULL,
+  `LINES_WRITTEN` bigint DEFAULT NULL,
+  `LINES_UPDATED` bigint DEFAULT NULL,
+  `LINES_INPUT` bigint DEFAULT NULL,
+  `LINES_OUTPUT` bigint DEFAULT NULL,
+  `LINES_REJECTED` bigint DEFAULT NULL,
+  `ERRORS` bigint DEFAULT NULL,
+  `STARTDATE` datetime DEFAULT NULL,
+  `ENDDATE` datetime DEFAULT NULL,
+  `LOGDATE` datetime DEFAULT NULL,
+  `DEPDATE` datetime DEFAULT NULL,
+  `REPLAYDATE` datetime DEFAULT NULL,
+  `LOG_FIELD` longtext COLLATE utf8mb4_general_ci,
+  KEY `IDX_etl_job_log_1` (`ID_JOB`),
+  KEY `IDX_etl_job_log_2` (`ERRORS`,`STATUS`,`JOBNAME`),
+  KEY `IDX_etl_job_log_3` (`JOBNAME`,`LOGDATE`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
