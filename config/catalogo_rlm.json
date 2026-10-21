@@ -1,0 +1,126 @@
+{
+  "versao": "1.0",
+  "unidades": [
+
+    {
+      "nome_origem": "1: Villa Theatro A",
+      "nome_normalizado": "1: Villa Theatro A",
+      "codigo_unidade": "VT_A",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+
+    },
+    {
+      "nome_origem": "1: Villa Theatro B",
+      "nome_normalizado": "1: Villa Theatro B",
+      "codigo_unidade": "VT_B",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+    },
+    {
+      "nome_origem": "1: Villa Theatro C",
+      "nome_normalizado": "1: Villa Theatro C",
+      "codigo_unidade": "VT_C",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+    },
+    {
+      "nome_origem": "1: Villa Theatro D",
+      "nome_normalizado": "1: Villa Theatro D",
+      "codigo_unidade": "VT_D",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+    },
+    {
+      "nome_origem": "1: Villa Theatro E",
+      "nome_normalizado": "1: Villa Theatro E",
+      "codigo_unidade": "VT_E",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+    },
+    {
+      "nome_origem": "1: Villa Theatro F",
+      "nome_normalizado": "1: Villa Theatro F",
+      "codigo_unidade": "VT_F",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+    },
+    {
+      "nome_origem": "1: Villa Theatro G",
+      "nome_normalizado": "1: Villa Theatro G",
+      "codigo_unidade": "VT_G",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+    },
+    {
+      "nome_origem": "1: Villa Theatro H",
+      "nome_normalizado": "1: Villa Theatro H",
+      "codigo_unidade": "VT_H",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+    },
+    {
+      "nome_origem": "1: Villa Theatro I",
+      "nome_normalizado": "1: Villa Theatro I",
+      "codigo_unidade": "VT_I",
+      "codigo_marca": "VT",
+      "marca": "Villa Theatro"
+    },
+
+
+    {
+      "nome_origem": "2: Avenida Residence 201",
+      "nome_normalizado": "2: Avenida Residence 201",
+      "codigo_unidade": "AR_201",
+      "codigo_marca": "AR",
+      "marca": "Avenida Residence"
+    },
+    {
+      "nome_origem": "2: Avenida Residence 202",
+      "nome_normalizado": "2: Avenida Residence 202",
+      "codigo_unidade": "AR_202",
+      "codigo_marca": "AR",
+      "marca": "Avenida Residence"
+
+    },
+    {
+      "nome_origem": "2: Avenida Residence 203",
+      "nome_normalizado": "2: Avenida Residence 203",
+      "codigo_unidade": "AR_203",
+      "codigo_marca": "AR",
+      "marca": "Avenida Residence"
+    },
+    {
+      "nome_origem": "2: Avenida Residence 204",
+      "nome_normalizado": "2: Avenida Residence 204",
+      "codigo_unidade": "AR_204",
+      "codigo_marca": "AR",
+      "marca": "Avenida Residence"
+    }
+
+
+  ],
+  "canais": [
+    {
+      "nome_origem": "Airbnb",
+      "nome_normalizado": "Airbnb",
+      "codigo_canal": "AIRBNB"
+    },
+    {
+      "nome_origem": "Booking.com",
+      "nome_normalizado": "Booking.com",
+      "codigo_canal": "BOOKING"
+    },
+    {
+      "nome_origem": "Interno",
+      "nome_normalizado": "Interno",
+      "codigo_canal": "INTERNO"
+    },
+    {
+      "nome_origem": "Websites",
+      "nome_normalizado": "Websites",
+      "codigo_canal": "WEBSITES"
+    }
+  ]
+
+}

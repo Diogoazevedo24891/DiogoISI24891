@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parametros>
+  <periodo>
+    <ano>2026</ano>
+    <mes_inicio>1</mes_inicio>
+    <mes_fim>10</mes_fim>
+  </periodo>
+
+  <disponibilidade>
+    <tipo>permanente</tipo>
+  </disponibilidade>
+
+  <saida>
+    <codificacao>UTF-8</codificacao>
+    <separador>;</separador>
+  </saida>
+</parametros>
