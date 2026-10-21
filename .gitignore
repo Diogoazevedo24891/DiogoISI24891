@@ -1,0 +1,19 @@
+# Credenciais e configuracoes locais
+kettle.properties
+.env
+.env.*
+*.properties.local
+
+# Dados originais e pessoais
+*.xlsx
+*.xls
+
+# Logs e temporarios
+*.log
+logs/
+temp/
+*.bak
+
+# Configuracoes do editor
+.vscode/
+.idea/
