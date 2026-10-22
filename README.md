@@ -18,12 +18,12 @@ O projeto inclui a leitura de ficheiros Excel, JSON e XML, o tratamento e valida
 
 ## Organização do projeto
 
-- `pentaho/` — Job principal e transformações do Pentaho (`.kjb` e `.ktr`).
+- `dataintegration/` — Job principal e transformações do Pentaho (`.kjb` e `.ktr`).
 - `config/` — Catálogo JSON e ficheiro XML com os parâmetros.
 - `sql/` — Scripts SQL utilizados no projeto.
 - `csv/` — Ficheiros CSV com os resultados tratados e agregados.
 - `dashboard/` — Dashboard desenvolvido em Excel.
-- `relatorio/` — Relatório académico em PDF.
+- `doc/` — Relatório académico em PDF.
 - `evidencias/` — Capturas de ecrã que demonstram o funcionamento do projeto.
 - `video/` — Informação e ligação ao vídeo de demonstração.
 
@@ -37,7 +37,7 @@ Os ficheiros originais utilizados na execução foram mantidos no computador de 
 
 ## Relatório
 
-O relatório académico encontra-se na pasta `relatorio/` e apresenta o desenvolvimento do projeto, as transformações realizadas, os testes e os resultados obtidos.
+O relatório académico encontra-se na pasta `doc` e apresenta o desenvolvimento do projeto, as transformações realizadas, os testes e os resultados obtidos.
 
 ## Vídeo de demonstração
 
